@@ -9,7 +9,7 @@ setCommonPlugins();
 
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: './oranumTest.js',
+  tests: './test/oranumTest.js',
   output: './output',
   helpers: {
     Playwright: {

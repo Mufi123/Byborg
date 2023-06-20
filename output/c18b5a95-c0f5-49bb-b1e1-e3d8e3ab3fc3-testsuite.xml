@@ -1,0 +1,301 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687265634296' stop='1687265700836'>
+    <name>Psychic Search and Validation:</name>
+    <title>Psychic Search and Validation:</title>
+    <test-cases>
+        <test-case start='1687265635675' status='passed' stop='1687265669931'>
+            <name>Searching for partial text should display only matching psychics.</name>
+            <title>Searching for partial text should display only matching psychics.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687265636291' status='passed' stop='1687265646281'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265646282' status='passed' stop='1687265646395'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265646396' status='passed' stop='1687265646737'>
+                    <name>I fill field {"name":"searchText"}, "Matt"</name>
+                    <title>I fill field {"name":"searchText"}, "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265646738' status='passed' stop='1687265647605'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265647606' status='passed' stop='1687265648254'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265648256' status='passed' stop='1687265651104'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265651104' status='passed' stop='1687265651163'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265651164' status='passed' stop='1687265651581'>
+                    <name>I fill field {"name":"searchText"}, "Myst"</name>
+                    <title>I fill field {"name":"searchText"}, "Myst"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265651584' status='passed' stop='1687265652617'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265652618' status='passed' stop='1687265654313'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265654315' status='passed' stop='1687265656999'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265657000' status='passed' stop='1687265657169'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265657169' status='passed' stop='1687265657513'>
+                    <name>I fill field {"name":"searchText"}, "Ann"</name>
+                    <title>I fill field {"name":"searchText"}, "Ann"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265657513' status='passed' stop='1687265659082'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265659082' status='passed' stop='1687265661701'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265661702' status='passed' stop='1687265665615'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265665616' status='passed' stop='1687265665823'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265665824' status='passed' stop='1687265666339'>
+                    <name>I fill field {"name":"searchText"}, "psy"</name>
+                    <title>I fill field {"name":"searchText"}, "psy"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265666340' status='passed' stop='1687265667738'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265667738' status='passed' stop='1687265669929'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1687265670015' status='passed' stop='1687265692253'>
+            <name>Full text search shows a specific psychic profile</name>
+            <title>Full text search shows a specific psychic profile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687265670301' status='passed' stop='1687265676663'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265676663' status='passed' stop='1687265676721'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265676721' status='passed' stop='1687265677122'>
+                    <name>I fill field {"name":"searchText"}, "MattWarren"</name>
+                    <title>I fill field {"name":"searchText"}, "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265677123' status='passed' stop='1687265677981'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265677981' status='passed' stop='1687265678652'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265678682' status='passed' stop='1687265684190'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265684191' status='passed' stop='1687265684220'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265684220' status='passed' stop='1687265684629'>
+                    <name>I fill field {"name":"searchText"}, "MysticMilena"</name>
+                    <title>I fill field {"name":"searchText"}, "MysticMilena"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265684629' status='passed' stop='1687265685530'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265685531' status='passed' stop='1687265686752'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265686756' status='passed' stop='1687265689915'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265689916' status='passed' stop='1687265689965'>
+                    <name>I wait for element {"name":"searchText"}, 30</name>
+                    <title>I wait for element {"name":"searchText"}, 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265689965' status='passed' stop='1687265690793'>
+                    <name>I fill field {"name":"searchText"}, "EternalFlame"</name>
+                    <title>I fill field {"name":"searchText"}, "EternalFlame"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265690793' status='passed' stop='1687265691684'>
+                    <name>I click "//button[contains(@class,'toolbar-search-button')]"</name>
+                    <title>I click "//button[contains(@class,'toolbar-search-button')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265691684' status='passed' stop='1687265692253'>
+                    <name>I grab text from all "//div[(@class='thumb-data-item--name')]"</name>
+                    <title>I grab text from all "//div[(@class='thumb-data-item--name')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1687265692299' status='passed' stop='1687265700783'>
+            <name>Validate "Sign up" overlay on live stream page</name>
+            <title>Validate "Sign up" overlay on live stream page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687265692522' status='passed' stop='1687265696786'>
+                    <name>I am on page "https://oranum.com/en/chat/LovePsychyicAnie"</name>
+                    <title>I am on page "https://oranum.com/en/chat/LovePsychyicAnie"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265696786' status='passed' stop='1687265699908'>
+                    <name>I click "[data-testid="surprise-OranumSurprisesGlobe_LJ"]"</name>
+                    <title>I click "[data-testid="surprise-OranumSurprisesGlobe_LJ"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265699908' status='passed' stop='1687265699918'>
+                    <name>I wait for element "//div[contains(@class,'mc_dialog__body')]"</name>
+                    <title>I wait for element "//div[contains(@class,'mc_dialog__body')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265699918' status='passed' stop='1687265700197'>
+                    <name>I click "[data-id="buyCreditIcon"]"</name>
+                    <title>I click "[data-id="buyCreditIcon"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265700197' status='passed' stop='1687265700206'>
+                    <name>I wait for element "//div[contains(@class,'mc_dialog__body')]"</name>
+                    <title>I wait for element "//div[contains(@class,'mc_dialog__body')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265700206' status='passed' stop='1687265700474'>
+                    <name>I click "//a[contains(text(),'Get Credits')]"</name>
+                    <title>I click "//a[contains(text(),'Get Credits')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265700474' status='passed' stop='1687265700775'>
+                    <name>I see element "//div[contains(@class,'mc_dialog__body')]"</name>
+                    <title>I see element "//div[contains(@class,'mc_dialog__body')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687265700775' status='passed' stop='1687265700782'>
+                    <name>I grab number of visible elements "[data-test-id^="surprise-button-"]"</name>
+                    <title>I grab number of visible elements "[data-test-id^="surprise-button-"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

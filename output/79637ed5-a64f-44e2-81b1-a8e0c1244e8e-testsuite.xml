@@ -1,0 +1,208 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687265602671' stop='1687265615098'>
+    <name>Psychic Search and Validation:</name>
+    <title>Psychic Search and Validation:</title>
+    <test-cases>
+        <test-case start='1687265605310' status='failed' stop='1687265613870'>
+            <name>Searching for partial text should display only matching psychics.</name>
+            <title>Searching for partial text should display only matching psychics.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2569c709-8b81-4c4a-b210-626bf4867092-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)</message>
+                <stack-trace>Error: Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:385:11)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at Context.test.fn (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:73:29)
+                    at callFnAsync (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:394:21)
+                    at Test.Runnable.run (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:789:12</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1687265614054' status='failed' stop='1687265614436'>
+            <name>Full text search shows a specific psychic profile</name>
+            <title>Full text search shows a specific psychic profile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='00ff3abb-1d09-4fc8-8a28-b2d8d0824260-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)</message>
+                <stack-trace>Error: Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:385:11)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at Context.test.fn (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:73:29)
+                    at callFnAsync (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:394:21)
+                    at Test.Runnable.run (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:789:12</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1687265614603' status='failed' stop='1687265614952'>
+            <name>Validate "Sign up" overlay on live stream page</name>
+            <title>Validate "Sign up" overlay on live stream page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1089c289-a9b9-4532-ac0f-98d5555fe81f-attachment.png' type='image/png' size='5320'/>
+            </attachments>
+            <failure>
+                <message>Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)</message>
+                <stack-trace>Error: Could not include object I from module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                Error: Cannot find module 'C:\Users\mohamed.mustafa\IdeaProjects\Byborg\steps_file.js'
+                Require stack:
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\codecept.js
+                - C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\bin\codecept.js
+                    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+                    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+                    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+                    at Module.require (node:internal/modules/cjs/loader:1005:19)
+                    at require (node:internal/modules/cjs/helpers:102:18)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:338:17)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at loadSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:385:11)
+                    at getSupportObject (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:302:12)
+                    at lazyLoad (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:212:18)
+                    at Object.get (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\container.js:260:24)
+                    at getInjectedArguments (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:212:17)
+                    at Context.test.fn (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\scenario.js:73:29)
+                    at callFnAsync (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:394:21)
+                    at Test.Runnable.run (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:666:10)
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\mocha\lib\runner.js:789:12</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
