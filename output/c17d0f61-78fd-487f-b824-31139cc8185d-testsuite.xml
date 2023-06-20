@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687253164513' stop='1687253231140'>
+    <name>Psychic Search and Validation:</name>
+    <title>Psychic Search and Validation:</title>
+    <test-cases>
+        <test-case start='1687253166004' status='failed' stop='1687253214235'>
+            <name>Partial text search displays matching psychics</name>
+            <title>Partial text search displays matching psychics</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687253166651' status='passed' stop='1687253177072'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253177072' status='failed' stop='1687253214233'>
+                    <name>I fill field "searchInput", "Matt"</name>
+                    <title>I fill field "searchInput", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9cfdb365-30f2-4766-a11b-2dba5a7aac3e-attachment.png' type='image/png' size='837943'/>
+            </attachments>
+            <failure>
+                <message>Field "searchInput" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "searchInput" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:2812:11)
+                    at Playwright.fillField (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:1456:5)
+                    at async Test.&lt;anonymous> (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\oranumTest.js:27:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1687253215262' status='failed' stop='1687253221231'>
+            <name>Full text search shows a specific psychic profile</name>
+            <title>Full text search shows a specific psychic profile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687253215846' status='passed' stop='1687253216452'>
+                    <name>I am on page "https://example.com/search"</name>
+                    <title>I am on page "https://example.com/search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253216453' status='failed' stop='1687253221231'>
+                    <name>I fill field "searchText", "MattWarren"</name>
+                    <title>I fill field "searchText", "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5d885ca5-b781-4cd5-8b28-3799d8ae8601-attachment.png' type='image/png' size='17601'/>
+            </attachments>
+            <failure>
+                <message>Field "searchText" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "searchText" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:2812:11)
+                    at Playwright.fillField (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:1456:5)
+                    at async Test.&lt;anonymous> (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\oranumTest.js:47:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1687253221362' status='failed' stop='1687253228750'>
+            <name>Validate "Sign up" overlay on live stream page</name>
+            <title>Validate "Sign up" overlay on live stream page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687253221569' status='passed' stop='1687253225392'>
+                    <name>I am on page "https://oranum.com/en/chat/LovePsychyicAnie"</name>
+                    <title>I am on page "https://oranum.com/en/chat/LovePsychyicAnie"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253225393' status='passed' stop='1687253227716'>
+                    <name>I click "Get Credits"</name>
+                    <title>I click "Get Credits"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253227716' status='failed' stop='1687253228750'>
+                    <name>I wait for element ".signupOverlay"</name>
+                    <title>I wait for element ".signupOverlay"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='22fd58c2-8e3d-44f8-a4a2-372c52330c1a-attachment.png' type='image/png' size='130581'/>
+            </attachments>
+            <failure>
+                <message>element (.signupOverlay) still not present on page after 1 sec
+                page.waitForSelector: Timeout 1000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.signupOverlay')
+                ============================================================</message>
+                <stack-trace>Error: element (.signupOverlay) still not present on page after 1 sec
+                page.waitForSelector: Timeout 1000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.signupOverlay')
+                ============================================================
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:2230:13
+                    at async Test.&lt;anonymous> (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\oranumTest.js:64:33)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

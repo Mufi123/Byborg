@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687253851970' stop='1687253890756'>
+    <name>Psychic Search and Validation:</name>
+    <title>Psychic Search and Validation:</title>
+    <test-cases>
+        <test-case start='1687253852961' status='failed' stop='1687253890211'>
+            <name>Partial text search displays matching psychics</name>
+            <title>Partial text search displays matching psychics</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687253853692' status='passed' stop='1687253860193'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253860195' status='failed' stop='1687253890210'>
+                    <name>I wait for element "search", 30</name>
+                    <title>I wait for element "search", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='99c0777b-643e-4250-8dd8-1f942a6a1181-attachment.png' type='image/png' size='839957'/>
+            </attachments>
+            <failure>
+                <message>element (search) still not present on page after 30 sec
+                page.waitForSelector: Timeout 30000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('search')
+                ============================================================</message>
+                <stack-trace>Error: element (search) still not present on page after 30 sec
+                page.waitForSelector: Timeout 30000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('search')
+                ============================================================
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:2230:13
+                    at async Test.&lt;anonymous> (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\oranumTest.js:22:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

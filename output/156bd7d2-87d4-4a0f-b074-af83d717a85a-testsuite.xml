@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687251742431' stop='1687251746484'>
+    <name>Oranum Search:</name>
+    <title>Oranum Search:</title>
+    <test-cases>
+        <test-case start='1687251744892' status='passed' stop='1687251746434'>
+            <name>Searching for partial text should display only matching psychics</name>
+            <title>Searching for partial text should display only matching psychics</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687253825843' stop='1687253837237'>
+    <name>Psychic Search and Validation:</name>
+    <title>Psychic Search and Validation:</title>
+    <test-cases>
+        <test-case start='1687253826737' status='failed' stop='1687253836639'>
+            <name>Partial text search displays matching psychics</name>
+            <title>Partial text search displays matching psychics</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687253827345' status='passed' stop='1687253835397'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253835398' status='passed' stop='1687253835412'>
+                    <name>I wait for element "#search", 30</name>
+                    <title>I wait for element "#search", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253835412' status='passed' stop='1687253835628'>
+                    <name>I fill field "#search", "Matt"</name>
+                    <title>I fill field "#search", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687253835630' status='failed' stop='1687253836639'>
+                    <name>I wait for element ".searchResults"</name>
+                    <title>I wait for element ".searchResults"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='94c10e53-9ef7-4ca3-a907-5303892fae69-attachment.png' type='image/png' size='856345'/>
+            </attachments>
+            <failure>
+                <message>element (.searchResults) still not present on page after 1 sec
+                page.waitForSelector: Timeout 1000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.searchResults')
+                ============================================================</message>
+                <stack-trace>Error: element (.searchResults) still not present on page after 1 sec
+                page.waitForSelector: Timeout 1000ms exceeded.
+                =========================== logs ===========================
+                waiting for locator('.searchResults')
+                ============================================================
+                    at C:\Users\mohamed.mustafa\IdeaProjects\Byborg\node_modules\codeceptjs\lib\helper\Playwright.js:2230:13
+                    at async Test.&lt;anonymous> (C:\Users\mohamed.mustafa\IdeaProjects\Byborg\oranumTest.js:25:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

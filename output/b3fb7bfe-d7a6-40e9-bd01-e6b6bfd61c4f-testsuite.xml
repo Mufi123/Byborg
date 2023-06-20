@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687252582215' stop='1687252586673'>
+    <name>Google Landing Page:</name>
+    <title>Google Landing Page:</title>
+    <test-cases>
+        <test-case start='1687252583263' status='passed' stop='1687252586628'>
+            <name>Open Google</name>
+            <title>Open Google</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1687252585163' status='passed' stop='1687252586364'>
+                    <name>I am on page "https://google.com"</name>
+                    <title>I am on page "https://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687252586366' status='passed' stop='1687252586389'>
+                    <name>I see element "//*[@name="q"]"</name>
+                    <title>I see element "//*[@name="q"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1687252586390' status='passed' stop='1687252586627'>
+                    <name>I fill field "//*[@name="q"]", "Github"</name>
+                    <title>I fill field "//*[@name="q"]", "Github"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
